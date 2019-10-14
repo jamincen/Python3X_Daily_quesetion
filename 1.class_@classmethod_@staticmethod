@@ -7,7 +7,7 @@
 ### 1.普通方法
 
 clss A():
-    def __init_(self, name, age):
+    def __init__(self, name, age):
         self.name = name
         self.age = age
         
@@ -19,7 +19,7 @@ clss A():
         
         
 class B():
-    def get_name(self, name)
+    def get_name(self, name):
         print('my name is', name)
         
     def get_age(self, age):
@@ -46,11 +46,11 @@ if __name__ == '__main__':
 
 class C():
     @classmethod
-    def get_name(cls, name)
+    def get_name(cls, name):
         print(cls) # <class '__main__.C'>
         print('my name is %s' % name)
     @classmethod
-    def get_age(cls, age)
+    def get_age(cls, age):
         print(f'i am %s years old' % age)
         
 if __name__ == '__main__':
@@ -64,11 +64,11 @@ if __name__ == '__main__':
 
 class D():
     @staticmethod
-    def get_name(name)
+    def get_name(name):
         print('my name is %s' % name)
         
     @staticmethod
-    def get_age(age)
+    def get_age(age):
         print(f'i am %s years old' % age)
         
 if __name__ == '__main__':
